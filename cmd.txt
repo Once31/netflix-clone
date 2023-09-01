@@ -1,0 +1,13 @@
+create nextjs app : npx create-next-app --typescript
+
+
+prisma setup
+
+npx prisma init
+
+npx prisma db push
+
+npx prisma generate
+
+
+http://localhost:3000/api/auth/callback/google
